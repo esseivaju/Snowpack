@@ -1,0 +1,26 @@
+{
+    "env": {
+        "defaultInclude": [
+            "/Users/esseivaj/Documents/zivi/cryos/dev/snowpack/container/dev/snowpack",
+            "/Users/esseivaj/Documents/zivi/cryos/dev/snowpack/container/dev/meteoio"
+        ]
+    },
+    "configurations": [
+        {
+            "name": "snowpack",
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "includePath": [
+                "${defaultInclude}"
+            ],
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
